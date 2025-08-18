@@ -1,0 +1,16 @@
+package com.company;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MyfirstCrudProjectApplication {
+
+
+	public static void main(String[] args) {SpringApplication.run(MyfirstCrudProjectApplication.class, args);
+
+		System.out.println("This project is created by Mechanical boy");
+	}
+
+
+}
