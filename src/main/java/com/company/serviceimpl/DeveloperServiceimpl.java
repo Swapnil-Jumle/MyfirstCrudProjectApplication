@@ -88,4 +88,10 @@ public class DeveloperServiceimpl  implements DeveloperService {
                 .collect(Collectors.toList());
         return filteredList;
     }
+
+    @Override
+    public List<Developer> getDeveloperByAge(int age) {
+        List<Developer> developerByAge =  developerRepository.findByAge(age);
+        return developerByAge;
+    }
 }

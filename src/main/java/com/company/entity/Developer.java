@@ -13,6 +13,7 @@ import lombok.ToString;
 @Getter
 @ToString
 public class Developer {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -32,6 +33,8 @@ public class Developer {
     private String developerId;
 
     private int yearofbirth;
+
+
 
 
 
